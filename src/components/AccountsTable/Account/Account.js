@@ -14,7 +14,7 @@ const Account = ({accounts,edit,deleteBtn,deleteAcc}) => {
     const deleteFun = deleteBtn ? (
         <>
         <td><button onClick={()=>{deleteAcc(accounts.id)}} className="btn btn-danger">Delete</button></td>
-        </> //ova deleteAcc funckija na onClick poziva funkciju iz App.js
+        </> 
     ) : null;
 
 
